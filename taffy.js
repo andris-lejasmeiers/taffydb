@@ -1594,6 +1594,7 @@ var TAFFY, exports, T;
           start     : false,
           q         : [],
           filterRaw : [],
+          runFilters: runFilters,
           index     : [],
           order     : [],
           results   : false,
