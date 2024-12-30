@@ -1,6 +1,6 @@
 {
   "name": "taffydb",
-  "version": "2.7.10",
+  "version": "2.7.11",
   "description": "TaffyDB is an opensouce library that brings database features into your JavaScript applications.",
   "keywords": [
     "database",
@@ -55,5 +55,9 @@
     "nodeunit": "^0.9.1",
     "nodeunit-b": "^4.0.0",
     "uglify-js": "^2.4.11"
+  },
+  "engines": {
+    "node": "6.17.1",
+    "npm": "3.10.10"
   }
 }
