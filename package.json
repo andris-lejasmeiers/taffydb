@@ -1,6 +1,6 @@
 {
-  "name": "taffydb",
-  "version": "2.7.11",
+  "name": "@andris/taffydb",
+  "version": "2.7.12",
   "description": "TaffyDB is an opensouce library that brings database features into your JavaScript applications.",
   "keywords": [
     "database",
@@ -13,7 +13,8 @@
   ],
   "main": "taffy.js",
   "scripts": {
-    "test": "node_modules/.bin/nodeunit test/t.js"
+    "test": "node_modules/.bin/nodeunit test/t.js",
+    "minify": "node_modules/.bin/uglifyjs taffy.js -o taffy-min.js"
   },
   "repository": {
     "type": "git",
